@@ -19,7 +19,7 @@ const audioClips = [
   { src: OffendRobot, label: 'Cant offend a robot', key: 'W'},
   { src: SoFocused, label: 'So focused', key: 'E'},
   { src: StopTalking, label: 'Please stop talking', key: 'A'},
-  { src: ThankYou, label: 'Thnak You', key: 'S'},
+  { src: ThankYou, label: 'Thank You', key: 'S'},
   { src: Good, label: 'Good', key: 'D'},
   { src: Kanye, label: 'Kanye', key: 'Z'},
   { src: HipHop, label: 'Hip Hop', key: 'X'},
@@ -106,6 +106,11 @@ const Display = styled.div`
   width:90%;
   margin: auto ;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
   `
 const Keys = styled.div`
   border-radius: 50px;
@@ -133,4 +138,8 @@ const Key = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  &:hover{
+    background-color: white;
+  }
+  
 `
