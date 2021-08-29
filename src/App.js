@@ -78,7 +78,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-// EDITH app main styled component woohoo!!
+// EDITH app main styled component woohoo!!??I
+
+// Drumkit div
 
 `
 
